@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Muli:400,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,800&display=swap');
 .App {
   text-align: center;
 }
@@ -101,4 +101,36 @@ button:hover {
 }
 button:focus {
   outline: none;
+}
+
+form > button {
+  background-color: transparent;
+  color: black;
+}
+form > input {
+  color: black;
+  border: 1px solid cyan;
+}
+form > input:hover {
+  background-color: cyan;
+  box-shadow: none;
+}
+form > button:hover {
+  background-color: cyan;
+}
+
+#mdl {
+  background: rgb(117, 84, 160);
+  background: linear-gradient(
+    90deg,
+    rgba(117, 84, 160, 1) 7%,
+    rgba(117, 84, 160, 1) 17%,
+    rgba(106, 95, 168, 1) 29%,
+    rgba(99, 103, 174, 1) 44%,
+    rgba(87, 116, 184, 1) 66%,
+    rgba(70, 135, 198, 1) 83%,
+    rgba(44, 163, 219, 1) 96%,
+    rgba(22, 188, 237, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
